@@ -1,0 +1,60 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Death Date</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="main">
+            <img src="src/download-free-png-bleeding-heart-png-99-images-in-collection-page-2--dlpngcom.png" alt="bloody heart image">
+            <form action="submit">
+                <table>
+                    <tr>
+                        <td><label>Your birthdate</label></td>
+                        <td><input type="date" id="fodselsdatoInput" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Your gender: (left woman right man)</label></td>
+                        <td><input type="range" min="0" max="10" required id="genderInput"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Your race in WOW or any other MMO</label></td>
+                        <td><input type="text" id="wowRaceInput"></td>
+                    </tr>
+                    <tr>
+                        <td><label>How many times have you corrected Geir's code</label></td>
+                        <td><input type="number" id="antallGangerRettetGeirSinProgInput" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>How many times a week do you work out</label></td>
+                        <td><input type="number" id="treningPerUkeInput" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>How many McFatsos you eat per month</label></td>
+                        <td><input type="number" id="McTjukkasPerManedInput"> </td>
+                    </tr>
+                    <tr>
+                        <td><label>Do you bring breakfast to school</label></td>
+                        <td><input type="checkbox" value="1" id="hasFrokostForSkoleInput"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Do you have a female driving you</label></td>
+                        <td><input type="checkbox" value="1" id="hasDrivingFemalePartnerInput"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Do you have a male driving you</label></td>
+                        <td><input type="checkbox" value="1" id="hasMaleDrivingPartnerInput"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Do you play games in Geir's lessons</label></td>
+                        <td><input type="checkbox" value="1" id="isSpillerItimenInput"></td>
+                    </tr>
+                </table>
+                <button type="submit">calculate</button>
+            </form>
+            </div>
+            <script src="script.js"></script>
+        </body>
+        </html>
